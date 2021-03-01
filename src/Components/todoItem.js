@@ -39,7 +39,9 @@ class TodoItem extends Component {
 
 // PropTypes
 TodoItem.propTypes = {
-    todo: PropTypes.array.isRequired
+    todo: PropTypes.object.isRequired,
+    markComplete: PropTypes.func.isRequired,
+    delTodo: PropTypes.func.isRequired,
 }
 
 const btnStyle = {
