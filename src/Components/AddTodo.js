@@ -25,7 +25,7 @@ class AddTodo extends Component {
                     value={this.state.title}
                     onChange={this.onChange}/>
                 <input type="submit"
-                       value="Submit"
+                       value="Add"
                        className="btn"
                        style={{flex: '1'}} />
             </form>
